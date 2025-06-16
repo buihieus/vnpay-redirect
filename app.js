@@ -18,7 +18,7 @@
   const isAndroid = /Android/i.test(navigator.userAgent);
   const isiOS = /iPhone|iPad|iPod/i.test(navigator.userAgent);
 
-  const deepLink = `ecommerce_app://payment/return?${query}`;
+  const deepLink = `ecommerce_app://payment/return${query}`;
   const fallbackUrl = 'https://yourwebsite.com/download'; // Link tải app (App Store / CH Play)
 
   if (isAndroid) {
