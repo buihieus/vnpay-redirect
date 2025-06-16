@@ -12,7 +12,6 @@
 //   }, 3000);
 // }, 1500);
 
-<script>
   const params = new URLSearchParams(window.location.search);
   const query = params.toString();
 
@@ -45,4 +44,4 @@
       <p style="margin-top: 20px;">⚠️ Vui lòng mở liên kết này trên <strong>điện thoại</strong> có cài app.</p>
     `;
   }
-</script>
+
